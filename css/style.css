@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url("img.jpg"); *//* URL to your background image */
+    /*background-size: cover;
+    background-position: center;*/
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    color: #fff; /* Text color */
+}
+
+.container-2 {
+    padding: 20px;
+    background-color: #000000; /* Black background */
+}
+
+.intro {
+    padding: 20px;
+    background-color: rgb(195, 245, 60); /* Fluorescent green background color */
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: center;
+}
+
+header {
+    background-color: #007bff; /* Blue header background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.features, .benefits {
+        font-size: 40px;
+
+    margin-bottom: 30px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    font-size: 30px;
+}
+
+.signup {
+    position: relative; /* Use relative positioning */
+    width: 100%; /* Occupy the full width */
+    height: 100vh; /* Occupy the full viewport height */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.signup img {
+    width: 100%; /* Ensure the image fills the container width */
+    height: 100%; /* Ensure the image fills the container height */
+    object-fit: cover; /* Cover the entire container without distortion */
+}
+
+.signup-text {
+    position: absolute;
+    top: 20%; /* Position the text vertically at the middle */
+    left: 50%; /* Position the text horizontally at the middle */
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center;
+    color: black; /*Text color */
+}
+
+.signup-text p {
+    font-size: 50px; /* Adjust the font size as needed */
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.container {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    padding: 0 20px; /* Add padding to the sides */
+    margin: auto; /* Center the container horizontally */
+}
+
+.navbar-collapse {
+    background-color: #ffffff; /* Change the background color of the navbar */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* CSS for smaller screens */
+@media screen and (max-width: 467px) {
+  .signup-text p {
+    font-size: 35px; /* Adjust the font size as needed */
+  }
+}

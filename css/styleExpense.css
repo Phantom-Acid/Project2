@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("img.jpg"); /* URL to your background image */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    color: #fff; /* Text color */
+
+}
+
+.container-2 {
+    padding: 20px;
+    background-color: #000000; /* Fluorescent green background color */
+}
+
+.hidden_button {
+    display:none;
+}
+
+
+
+header {
+    background-color: #007bff; /* Blue header background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
